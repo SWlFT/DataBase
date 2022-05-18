@@ -35,3 +35,17 @@ if __name__ == "__main__":
     for mut_dig, mut_name in zip(mut_dig_list, mut_name_list):
         print(f"{mut_name} <==> {wt_name}\n{stat_ttest(wt_dig, mut_dig)}\n")
 
+"""
+Mut_1 <==> WT
+('***', 9.244876643607457e-07)
+
+Mut_2 <==> WT
+('**', 0.0020918807689262707)
+
+Mut_3 <==> WT
+('ns', 0.635528702976327)
+
+Mut_4 <==> WT
+('***', 1.2297012189246794e-07)
+"""
+
